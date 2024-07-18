@@ -1,0 +1,9 @@
+2024-07-27 10:14:19,654 INFO Running d_survival.py
+2024-07-27 10:14:19,654 INFO Arguments loaded with ArgumentParser:
+2024-07-27 10:14:19,654 INFO  Argument in_file: ../Results/PetLit_Data_02.xlsx
+2024-07-27 10:14:19,654 INFO  Argument log: ../Results/d_survival.log
+2024-07-27 10:14:19,654 INFO  Argument out_folder: ../Results/
+2024-07-27 10:14:21,053 INFO PFS and OS for all patients available.
+2024-07-27 10:14:31,336 INFO COX Regression Pall
+2024-07-27 10:14:32,161 INFO Writing Excel file...
+2024-07-27 10:14:32,314 INFO Done.

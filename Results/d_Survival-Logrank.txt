@@ -1,0 +1,210 @@
+###
+CTDNA-T0-MRD-POS PFS
+p = 0.32460330291790584
+p = 0.3246033029
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           0.97 0.32      1.62
+
+###
+CTDNA-T0-MRD-POS OS
+p = 0.28909195868041393
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           1.12 0.29      1.79
+
+###
+CTDNA-T1-MRD-POS PFS
+p = 0.014649001385215297
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           5.96 0.01      6.09
+
+###
+CTDNA-T1-MRD-POS OS
+p = 0.0610770671681791
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           3.51 0.06      4.03
+
+###
+CTDNA-T2-MRD-POS PFS
+p = 0.0009055656285246984
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic      p  -log2(p)
+          11.01 <0.005     10.11
+
+###
+CTDNA-T2-MRD-POS OS
+p = 0.0020436828475465982
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic      p  -log2(p)
+           9.51 <0.005      8.93
+
+###
+CTDNA-T0-T1-ASC PFS
+p = 0.023423342663211496
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           5.14 0.02      5.42
+
+###
+CTDNA-T0-T1-ASC OS
+p = 0.028692258681016852
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           4.79 0.03      5.12
+
+###
+CTDNA-T1-T2-ASC PFS
+p = 0.007856057223450548
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           7.07 0.01      6.99
+
+###
+CTDNA-T1-T2-ASC OS
+ p-value = 0.00037116382955682025
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic      p  -log2(p)
+          12.67 <0.005     11.40
+
+###
+TMB-high PFS
+p = 0.013817938072729845
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           6.06 0.01      6.18
+
+###
+TMB-high OS
+p = 0.0026808366871588383
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic      p  -log2(p)
+           9.01 <0.005      8.54
+
+###
+LDH-T0-POS PFS
+p = 0.014004360291450562
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           6.04 0.01      6.16
+
+###
+LDH-T0-POS OS
+p = 0.02979857974562215
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic    p  -log2(p)
+           4.72 0.03      5.07
+
+###
+PET-T0-T2-ASC PFS
+p = 6.97325124707233e-06
+p = 0.0000069733
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic      p  -log2(p)
+          20.20 <0.005     17.13
+
+###
+PET-T0-T2-ASC OS
+p = 6.678388956608588e-09
+<lifelines.StatisticalResult: logrank_test>
+               t_0 = -1
+ null_distribution = chi squared
+degrees_of_freedom = 1
+         test_name = logrank_test
+
+---
+ test_statistic      p  -log2(p)
+          33.63 <0.005     27.16
+

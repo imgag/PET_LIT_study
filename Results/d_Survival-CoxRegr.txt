@@ -1,0 +1,108 @@
+T0-T1 ASC PFS and OS
+###
+<lifelines.CoxPHFitter: fitted with 47 total observations, 22 right-censored observations>
+             duration col = 'PFS-DURATION'
+                event col = 'PFS-EVENT'
+      baseline estimation = breslow
+   number of observations = 47
+number of events observed = 25
+   partial log-likelihood = -85.18
+         time fit was run = 2024-07-27 08:14:31 UTC
+
+---
+                  coef  exp(coef)   se(coef)   coef lower 95%   coef upper 95%  exp(coef) lower 95%  exp(coef) upper 95%
+covariate                                                                                                               
+CTDNA-T0-T1-ASC   0.90       2.46       0.41             0.10             1.70                 1.11                 5.48
+
+                  cmp to    z    p   -log2(p)
+covariate                                    
+CTDNA-T0-T1-ASC     0.00 2.21 0.03       5.19
+---
+Concordance = 0.60
+Partial AIC = 172.36
+log-likelihood ratio test = 4.68 on 1 df
+-log2(p) of ll-ratio test = 5.04
+
+
+###
+<lifelines.CoxPHFitter: fitted with 47 total observations, 24 right-censored observations>
+             duration col = 'OS-DURATION'
+                event col = 'OS-EVENT'
+      baseline estimation = breslow
+   number of observations = 47
+number of events observed = 23
+   partial log-likelihood = -78.68
+         time fit was run = 2024-07-27 08:14:31 UTC
+
+---
+                  coef  exp(coef)   se(coef)   coef lower 95%   coef upper 95%  exp(coef) lower 95%  exp(coef) upper 95%
+covariate                                                                                                               
+CTDNA-T0-T1-ASC   0.90       2.46       0.42             0.07             1.73                 1.07                 5.65
+
+                  cmp to    z    p   -log2(p)
+covariate                                    
+CTDNA-T0-T1-ASC     0.00 2.12 0.03       4.88
+---
+Concordance = 0.60
+Partial AIC = 159.36
+log-likelihood ratio test = 4.32 on 1 df
+-log2(p) of ll-ratio test = 4.73
+
+
+T1-T2 ASC PFS and OS
+###
+<lifelines.CoxPHFitter: fitted with 29 total observations, 17 right-censored observations>
+             duration col = 'PFS-DURATION'
+                event col = 'PFS-EVENT'
+      baseline estimation = breslow
+   number of observations = 29
+number of events observed = 12
+   partial log-likelihood = -34.49
+         time fit was run = 2024-07-27 08:14:31 UTC
+
+---
+                  coef  exp(coef)   se(coef)   coef lower 95%   coef upper 95%  exp(coef) lower 95%  exp(coef) upper 95%
+covariate                                                                                                               
+CTDNA-T1-T2-ASC   1.49       4.45       0.61             0.30             2.69                 1.35                14.68
+
+                  cmp to    z    p   -log2(p)
+covariate                                    
+CTDNA-T1-T2-ASC     0.00 2.45 0.01       6.12
+---
+Concordance = 0.65
+Partial AIC = 70.98
+log-likelihood ratio test = 6.06 on 1 df
+-log2(p) of ll-ratio test = 6.18
+
+
+hazard ratio: covariate
+CTDNA-T1-T2-ASC    7.27712
+Name: exp(coef), dtype: float64
+confidence intervals:                  95% lower-bound  95% upper-bound
+covariate                                        
+CTDNA-T1-T2-ASC         0.724828         3.244643
+###
+<lifelines.CoxPHFitter: fitted with 29 total observations, 18 right-censored observations>
+             duration col = 'OS-DURATION'
+                event col = 'OS-EVENT'
+      baseline estimation = breslow
+   number of observations = 29
+number of events observed = 11
+   partial log-likelihood = -29.29
+         time fit was run = 2024-07-27 08:14:31 UTC
+
+---
+                  coef  exp(coef)   se(coef)   coef lower 95%   coef upper 95%  exp(coef) lower 95%  exp(coef) upper 95%
+covariate                                                                                                               
+CTDNA-T1-T2-ASC   1.98       7.28       0.64             0.72             3.24                 2.06                25.65
+
+                  cmp to    z      p   -log2(p)
+covariate                                      
+CTDNA-T1-T2-ASC     0.00 3.09 <0.005       8.95
+---
+Concordance = 0.74
+Partial AIC = 60.58
+log-likelihood ratio test = 9.85 on 1 df
+-log2(p) of ll-ratio test = 9.20
+
+

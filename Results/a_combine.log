@@ -1,0 +1,11 @@
+2024-07-27 10:13:26,245 INFO Running a_combine_data.py
+2024-07-27 10:13:26,246 INFO Arguments loaded with ArgumentParser:
+2024-07-27 10:13:26,246 INFO  Argument in_file: ../Data/PetLit_Data_01.xlsx
+2024-07-27 10:13:26,246 INFO  Argument log: ../Results/a_combine.log
+2024-07-27 10:13:26,246 INFO  Argument out_file: ../Results/PetLit_Data_02.xlsx
+2024-07-27 10:13:32,091 INFO Adding  summary columns for samples...
+2024-07-27 10:13:35,878 INFO Combining data...
+2024-07-27 10:13:37,160 INFO  PET/CT singles missing for patients PAT-068,PAT-096,PAT-104.
+2024-07-27 10:13:37,954 INFO  PET/CT pairs missing for patients PAT-011,PAT-014,PAT-017,PAT-018,PAT-019,PAT-020,PAT-021,PAT-029,PAT-031,PAT-035,PAT-038,PAT-042,PAT-047,PAT-050,PAT-052,PAT-053,PAT-064,PAT-068,PAT-086,PAT-096,PAT-102,PAT-104.
+2024-07-27 10:13:41,755 INFO Writing Excel file...
+2024-07-27 10:13:45,343 INFO Done.
