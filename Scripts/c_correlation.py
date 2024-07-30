@@ -137,7 +137,7 @@ n = len(tmp_diff1['PATIENT-ID'].unique())
 logging.info(' Number of patients: {}'.format(n))
 rho1, pval1 = stats.spearmanr(tmp_diff1[column1],tmp_diff1[column2])
 logging.info(' S100 {} Spearman\'s rho: {:.2f}, test p-value: {}'.format(len(tmp_diff1),rho1,pval1))
-plot.plot_correlation(x=tmp_diff1[column1], y=tmp_diff1[column2], title='Correlation of liquid biopsies and S100', xlabel='Conc S100', ylabel='Multi-AF',rho=rho1, p=pval1, out=(out_folder + 'Figure_Correlation-S100.svg'), log=log)
+plot.plot_correlation(x=tmp_diff1[column1], y=tmp_diff1[column2], title='Correlation of liquid biopsies and S100', xlabel='S100', ylabel='Multi-AF',rho=rho1, p=pval1, out=(out_folder + 'Figure_Correlation-S100.svg'), log=log)
 
 source_data.update({'Figure 3 A':tmp_diff1[['PATIENT-ID',column1,column2]]})
 
@@ -167,7 +167,7 @@ logging.info(' Normaltest {}: {}'.format(column2,p[1]))
 
 rho1, pval1 = stats.spearmanr(tmp_diff1[column1],tmp_diff1[column2])
 logging.info(' LDH {} Spearman\'s rho: {:.2f}, p-value: {}'.format(len(tmp_diff1),rho1,pval1))
-plot.plot_correlation(x=tmp_diff1[column1], y=tmp_diff1[column2], title='Correlation of liquied biopsies and LDH', xlabel='Conc LDH', ylabel='Multi-AF',rho=rho1, p=pval1, out=(out_folder + 'Figure_Correlation-LDH.svg'), log=log)
+plot.plot_correlation(x=tmp_diff1[column1], y=tmp_diff1[column2], title='Correlation of liquied biopsies and LDH', xlabel='LDH', ylabel='Multi-AF',rho=rho1, p=pval1, out=(out_folder + 'Figure_Correlation-LDH.svg'), log=log)
 
 source_data.update({'Figure 3 B':tmp_diff1[['PATIENT-ID',column1,column2]]})
 
