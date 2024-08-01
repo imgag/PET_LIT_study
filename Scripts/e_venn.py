@@ -32,7 +32,7 @@ df_ldh = pd.read_excel(in_file, sheet_name='LDH')
 rows = []
 patients = df_pat.loc[pd.isnull(df_pat['FILTER']),'PATIENT-ID'].to_list()
 
-column = 'TUMOR-DETECTED-PVALUE'
+column = 'COUNT-VARIANTS-DETECTED'
 for pat in patients:
     ctdna = None
     filter = (df_ctdna['PATIENT-ID']==pat) & (df_ctdna['TREATMENT-DAY']<=7) & (df_ctdna['TREATMENT-DAY']>=-7)
