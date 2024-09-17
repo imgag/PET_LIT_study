@@ -167,7 +167,7 @@ logging.info(' Normaltest {}: {}'.format(column2,p[1]))
 
 rho1, pval1 = stats.spearmanr(tmp_diff1[column1],tmp_diff1[column2])
 logging.info(' LDH {} Spearman\'s rho: {:.2f}, p-value: {}'.format(len(tmp_diff1),rho1,pval1))
-plot.plot_correlation(x=tmp_diff1[column1], y=tmp_diff1[column2], title='Correlation of liquied biopsies and LDH', xlabel='LDH', ylabel='Multi-AF',rho=rho1, p=pval1, out=(out_folder + 'Figure_Correlation-LDH.svg'), log=log)
+plot.plot_correlation(x=tmp_diff1[column1], y=tmp_diff1[column2], title='Correlation of liquid biopsies and LDH', xlabel='LDH', ylabel='Multi-AF',rho=rho1, p=pval1, out=(out_folder + 'Figure_Correlation-LDH.svg'), log=log)
 
 source_data.update({'Figure 3 B':tmp_diff1[['PATIENT-ID',column1,column2]]})
 
